@@ -1,0 +1,54 @@
+{
+  "name": "appibilities",
+  "homepage": "http://glucode.com",
+  "version": "1.0.6",
+  "main": "dist/index.js",
+  "sketch": "dist/sketch.js",
+  "license": "MIT",
+  "sketch-assistant": {
+    "title": "iOS Accessibility",
+    "description": "Make it easier to follow iOS accessibility rules",
+    "icon": "https://raw.githubusercontent.com/fbmore/assets/28668cea724514bbebb102aa97d3f8a4a200086b/iOS-AccessibilityAssistant-icon.png"
+  },
+  "author": {
+    "name": "Francesco Bertocci",
+    "email": "fbmore@gmail.com",
+    "url": "https://francescobertocci.com"
+  },
+  "keywords": [
+    "sketch",
+    "sketch files",
+    "sketch assistant",
+    "public",
+    "assistant",
+    "accessibility",
+    "design ops",
+    "productivity"
+  ],
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "jest --no-cache",
+    "build": "rm -rf dist && npm run build:node && npm run build:sketch",
+    "build:node": "tsc",
+    "build:sketch": "webpack",
+    "package-tarball": "npm run build && npm pack"
+  },
+  "devDependencies": {
+    "@sketch-hq/sketch-assistant-utils": "6.5.2",
+    "@types/jest": "27.0.2",
+    "@types/node": "16.11.1",
+    "jest": "27.3.1",
+    "node-fetch": "^3.2.3",
+    "prettier": "2.4.1",
+    "ts-jest": "27.0.7",
+    "typescript": "4.4.4",
+    "webpack": "5.59.0",
+    "webpack-cli": "4.9.1"
+  },
+  "dependencies": {
+    "@sketch-hq/sketch-assistant-types": "6.5.0",
+    "@sketch-hq/sketch-core-assistant": "6.5.0"
+  }
+}
