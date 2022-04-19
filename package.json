@@ -1,6 +1,6 @@
 {
   "name": "appibilities",
-  "homepage": "http://glucode.com",
+  "homepage": "http://glucode.com/projects/appibilities",
   "version": "1.0.6",
   "main": "dist/index.js",
   "sketch": "dist/sketch.js",
