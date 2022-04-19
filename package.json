@@ -1,14 +1,14 @@
 {
   "name": "appibilities",
   "homepage": "http://glucode.com/projects/appibilities",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": "dist/index.js",
   "sketch": "dist/sketch.js",
   "license": "MIT",
   "sketch-assistant": {
-    "title": "iOS Accessibility",
+    "title": "Appibilities",
     "description": "Make it easier to follow iOS accessibility rules",
-    "icon": "https://raw.githubusercontent.com/fbmore/assets/28668cea724514bbebb102aa97d3f8a4a200086b/iOS-AccessibilityAssistant-icon.png"
+    "icon": "https://user-images.githubusercontent.com/159896/161737295-0acb5411-98b8-432e-ad99-064e35c3a9b6.jpg"
   },
   "author": {
     "name": "Nico du Plessis",
