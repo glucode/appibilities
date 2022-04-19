@@ -1,7 +1,7 @@
 {
   "name": "appibilities",
   "homepage": "http://glucode.com/projects/appibilities",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "dist/index.js",
   "sketch": "dist/sketch.js",
   "license": "MIT",
@@ -11,9 +11,9 @@
     "icon": "https://raw.githubusercontent.com/fbmore/assets/28668cea724514bbebb102aa97d3f8a4a200086b/iOS-AccessibilityAssistant-icon.png"
   },
   "author": {
-    "name": "Francesco Bertocci",
-    "email": "fbmore@gmail.com",
-    "url": "https://francescobertocci.com"
+    "name": "Nico du Plessis",
+    "email": "hello@glucode.com",
+    "url": "https://glucode.com"
   },
   "keywords": [
     "sketch",

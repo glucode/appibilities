@@ -1,4 +1,7 @@
-# Glucode Appibilities
+# Appibilities
+<a href="https://glucode.com/projects/appibilities">
+  <img  align="center"  src="https://user-images.githubusercontent.com/159896/161737295-0acb5411-98b8-432e-ad99-064e35c3a9b6.jpg" alt="Appibilities: iOS Accessibility Assistant for Sketch">
+</a>
 
 Appibilities is an iOS Accessibility Assistant for Sketch that guides and assists designers in
 creating interfaces that can be enjoyed by everyone.
